@@ -21,7 +21,7 @@ from pygments.styles import get_all_styles
 # -- Project information -----------------------------------------------------
 
 project = u'CitizenOne'
-copyright = u'2021, Vivvo'
+copyright = u'2021, Portage Cybertech'
 author = u'Vivvo Application Studios'
 
 # The short X.Y version
