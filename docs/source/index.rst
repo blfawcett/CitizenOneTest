@@ -3,12 +3,12 @@ CitizenOne
 
 CitizenOne is an e-services platform designed to help government manage the delivery of services in the digital channel. Built on a foundation of distributed trust, CitizenOne helps government manage citizen identification, privacy, trust, consent, the movement of data and government policy.
 
-Guides
+Documentation Menu
 ######
 ######
 
 .. toctree::
-   :caption: The CitizenOne Platform
+   :caption: The CitizenOne SaaS
    :maxdepth: 2
 
    Tenants
@@ -19,12 +19,6 @@ Guides
    Providers
    Policies
    Email Templates
-
-.. toctree::
-   :caption: Eeze
-   :maxdepth: 2
-
-   Eeze
 
 .. toctree::
    :caption: Managing CitizenOne
