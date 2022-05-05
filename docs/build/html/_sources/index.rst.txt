@@ -7,8 +7,8 @@ Documentation Topics
 ######
 
 .. toctree::
-   :caption: The CitizenOne Platform
-   :maxdepth: 1
+   :caption: The CitizenOne SaaS
+   :maxdepth: 3
 
    Tenants
    Organizations
@@ -20,33 +20,38 @@ Documentation Topics
    Email Templates
    Templates
 
-   Eeze
 
 .. toctree::
-   :caption: Managing CitizenOne
+   :caption: Administration Guide
    :maxdepth: 3
 
+   Management/Platform Configuration
    Management/CitizenOne Support
+   Management/Layouts
+   Technical/Authentication
+   Technical/DynamicIdentityProviders
+   
+.. toctree::
+   :caption: Provisioning Client Services
+   :maxdepth: 3 
    Management/Creating Service Cards
    Management/Organization Management
    Management/Application Management
    Management/Service Card Management
+   
+.. toctree::
+   :caption: Provisioning Integration Points
+   :maxdepth: 3 
    Management/Rule Management
-   Management/Provider Management
+   Technical/Data Bundles
    Management/Policy Management
-   Management/Platform Configuration
-   Management/Layouts
-   Form Builder/Form Management
-   Form Builder/Form Responses
+   Management/Provider Management
 
 .. toctree::
-   :caption: Technical Documentation
-   :maxdepth: 1
+   :caption: Integration Guide
+   :maxdepth: 
 
-   Technical/Authentication
    Technical/Integrations
-   Technical/Data Bundles
-   Technical/DynamicIdentityProviders
    Technical/Feature Toggles
    Technical/Federation
    Technical/MFA Rule Evaluation
@@ -56,21 +61,13 @@ Documentation Topics
    Technical/Splunk Service
    Templates/index
 
-
-
 .. toctree::
    :caption: General Information
    :maxdepth: 1
 
    Contact
 
-
-.. toctree::
-   :caption: Integration Guide
-   :maxdepth: 1
-
-    
-
+   
 
 Indices and tables
 ==================
