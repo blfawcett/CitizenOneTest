@@ -21,7 +21,11 @@ from pygments.styles import get_all_styles
 # -- Project information -----------------------------------------------------
 
 project = u'CitizenOne'
+<<<<<<< HEAD
 copyright = u'2022, Portage Cybertech'
+=======
+copyright = u'2021, Portage Cybertech'
+>>>>>>> tmp
 author = u'Vivvo Application Studios'
 
 # The short X.Y version
@@ -42,6 +46,13 @@ release = u'0.0.2'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosectionlabel',
+    'sphinx.ext.doctest',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.githubpages',
+    'sphinx.ext.graphviz',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
